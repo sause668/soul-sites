@@ -105,3 +105,45 @@ a {
     color-scheme: dark;
   }
 }
+
+/* potta-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Potta One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/potta-one-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/potta-one-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/potta-one-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/potta-one-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/potta-one-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/potta-one-v16-latin-regular.svg#PottaOne') format('svg'); /* Legacy iOS */
+}
+
+/* chela-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Chela One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/chela-one-v21-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/chela-one-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/chela-one-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/chela-one-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/chela-one-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/chela-one-v21-latin-regular.svg#ChelaOne') format('svg'); /* Legacy iOS */
+}
+
+/* imprima-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Imprima';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/imprima-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/imprima-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/imprima-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/imprima-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/imprima-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/imprima-v16-latin-regular.svg#Imprima') format('svg'); /* Legacy iOS */
+}
