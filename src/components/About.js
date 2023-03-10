@@ -27,8 +27,6 @@ export default function Title() {
 
     return (
         <Box id='about' sx={{backgroundColor: "black"}} >
-
-            
             <Container sx={{
                 display: "flex",
                 justifyContent: "center",
@@ -100,7 +98,7 @@ export default function Title() {
                         </Typography>
                         <Button 
                             component={'a'}
-                            href='/reume-23-web.docx'
+                            href='/Kamara-Reynolds-Resume-2023.pdf'
                             download
                             variant='contained'
                             color="secondary" 
