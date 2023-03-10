@@ -96,7 +96,7 @@ export default function Title() {
                             <><b>Cell Number: </b>(516)-668-2866</>
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
-                            <><b>Email: </b>reynoldskamara@yahoo.com</>
+                            <><b>Email: </b>reynoldskamara@soulsitescoding.com</>
                         </Typography>
                         <Button 
                             component={'a'}
