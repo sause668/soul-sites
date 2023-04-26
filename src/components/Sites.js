@@ -31,8 +31,15 @@ export default function Title() {
             id: 'sewposh', 
             img: '/img/sites/sew-posh.jpg', 
             title: 'Sew Posh', 
-            dis: 'Website for Upholstry Company', 
+            dis: 'Website for Upholstery Company', 
             link: 'https://sew-posh.vercel.app'
+        },
+        {
+            id: 'soulmath', 
+            img: '/img/sites/soul-math.jpg', 
+            title: 'Soul Math', 
+            dis: 'Practice Assesments for Middle School Math', 
+            link: 'https://soul-math.vercel.app'
         },
         {
             id: 'frontendBasics', 
