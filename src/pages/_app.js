@@ -1,6 +1,5 @@
 import { ThemeProvider, createTheme, responsiveFontSizes } from '@mui/material/styles';
 import '@/styles/globals.css'
-import { blueGrey } from '@mui/material/colors';
 
 let theme = createTheme({
   palette: {

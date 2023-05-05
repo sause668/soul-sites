@@ -42,6 +42,13 @@ export default function Title() {
             link: 'https://soul-math.vercel.app'
         },
         {
+            id: 'soulcalc', 
+            img: '/img/sites/soul-calc.jpg', 
+            title: 'Soul Calc', 
+            dis: 'Online Calculator', 
+            link: 'https://soul-math.vercel.app/calc'
+        },
+        {
             id: 'frontendBasics', 
             img: '/img/sites/front-end-basics.jpg', 
             title: 'Front End Basics', 
