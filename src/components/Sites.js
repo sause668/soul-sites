@@ -38,7 +38,7 @@ export default function Title() {
             id: 'soulmath', 
             img: '/img/sites/soul-math.jpg', 
             title: 'Soul Math', 
-            dis: 'Practice Assesments for Middle School Math', 
+            dis: 'Practice Assessments for Middle School Math', 
             link: 'https://soul-math.vercel.app'
         },
         {
