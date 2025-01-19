@@ -5,52 +5,77 @@ import Link from "next/link";
 export default function Title() {
 
     const mobile = useMediaQuery('(min-width:1100px)');
-    const phone = useMediaQuery('(min-width:600px)');
+    const xLarge = useMediaQuery('(min-width:1200px)');
+    const large = useMediaQuery('(min-width:1000px)');
+    const medium = useMediaQuery('(min-width:800px)');
+    const small = useMediaQuery('(min-width:600px)');
+    const xSmall = useMediaQuery('(min-width:400px)');
 
     function logoSize() {
-        let sizer = 1;
-        let height = 724*sizer;
-        let width = 1007*sizer;
-        if (!mobile) {
-            if (!phone) {
-                height *= .35;
-                width *= .35;
-            }else {
-                height *= .6;
-                width *= .6;
-            }
-        }else {
-            height *= .75;
-            width *= .75;
+        let sizer = .8;
+        if (!xLarge) {
+            if (!large) {
+                if(!medium) {
+                    if (!small) {
+                        if (!xSmall) {
+                            sizer = .23;
+                        } else {
+                            sizer = .3;
+                        }
+                    } else {
+                        sizer = .45;
+                    }
+                } else {
+                    sizer = .55;
+                }
+            } else {
+                sizer = .65;
+            } 
         }
+        let height = 750*sizer;
+        let width = 1440*sizer;
         return {height: height, width: width};
     }
 
     const siteData = [
         {
+            id: 'soulAcademy', 
+            img: '/img/sites/soul-academy.png', 
+            title: 'Soul Academy', 
+            dis: 'Middle School Portal for Grading', 
+            link: 'https://soul-class.onrender.com/'
+        },
+        {
+            id: 'honeyStock', 
+            img: '/img/sites/honey-stock.png', 
+            title: 'Honey Stock', 
+            dis: 'Stock Trading Application', 
+            link: 'https://stock-trading-app-qlg7.onrender.com/'
+        },
+        {
             id: 'sewposh', 
-            img: '/img/sites/sew-posh.jpg', 
+            img: '/img/sites/sew-posh.png', 
             title: 'Sew Posh', 
             dis: 'Website for Upholstery Company', 
             link: 'https://sew-posh.vercel.app'
         },
         {
             id: 'soulmath', 
-            img: '/img/sites/soul-math.jpg', 
+            img: '/img/sites/soul-math.png', 
             title: 'Soul Math', 
             dis: 'Practice Assessments for Middle School Math', 
             link: 'https://soul-math.vercel.app'
         },
         {
             id: 'soulcalc', 
-            img: '/img/sites/soul-calc.jpg', 
+            img: '/img/sites/soul-calc.png', 
             title: 'Soul Calc', 
             dis: 'Online Calculator', 
             link: 'https://soul-math.vercel.app/calc'
         },
         {
             id: 'frontendBasics', 
-            img: '/img/sites/front-end-basics.jpg', 
+            img: '/img/sites/frontend-basics.png', 
             title: 'Front End Basics', 
             dis: 'Reference for Beginner Web Developers', 
             link: 'https://front-end-basics.vercel.app'
@@ -58,7 +83,7 @@ export default function Title() {
     ]
 
     return (
-        <Box id='sites' sx={{backgroundColor: "white"}} >
+        <Box id='sites' sx={{backgroundColor: "#fdfdfd"}} >
             <Container sx={{
                 display: "flex",
                 justifyContent: "center",
@@ -107,8 +132,16 @@ export default function Title() {
                                     src={site.img}
                                     height={logoSize().height} 
                                     width={logoSize().width} 
+                                    // fill
+                                    // sizes="(max-width: 768px) 100vw, (max-width: 1400px) 50vw, 33vw"
                                     alt={site.id}
-                                    style={{borderRadius: '10px'}}
+                                    style={{
+                                        borderRadius: '10px', 
+                                        height: '100%', 
+                                        width: '100%',
+                                        boxShadow: '0px 0px 5px grey'
+                                    }}
+                                    priority={site.id == 'soulAcademy'}
                                 />
                             </ButtonBase>
                         </Grid>

@@ -5,6 +5,7 @@ export default function Title() {
 
     const mobile = useMediaQuery('(min-width:1100px)');
     const phone = useMediaQuery('(min-width:600px)');
+    const phone2 = useMediaQuery('(min-width:400px)');
 
     function logoSize() {
         let sizer = .5;
@@ -12,8 +13,14 @@ export default function Title() {
         let width = 582*sizer;
         if (!mobile) {
             if (!phone) {
-                height *= .45;
-                width *= .45;
+                if (!phone2) {
+                    height *= .25;
+                    width *= .25;
+                } else {
+                    height *= .45;
+                    width *= .45;
+                }
+                
             }else {
                 height *= .625;
                 width *= .625;
@@ -54,6 +61,11 @@ export default function Title() {
                             height={logoSize().height} 
                             width={logoSize().width} 
                             alt='Nav Logo'
+                            // style={{
+                            //     height: '30%',
+                            //     width: '30%'
+                            // }}
+                            priority={true}
                         />
                     </Grid>
                     <Grid item xs={12} sm={10} md={6} sx={{

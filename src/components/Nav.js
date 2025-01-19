@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import MenuIcon from '@mui/icons-material/Menu';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import { useMediaQuery } from '@mui/material';
 import { useState} from "react";
 
@@ -105,6 +106,15 @@ export default function Nav() {
                         >
                             <LinkedInIcon fontSize="large" />
                         </Button>
+                        <Button 
+                            component={Link}
+                            href='https://github.com/sause668'
+                            variant='text'
+                            color="secondary" 
+                            sx={{display: 'block', mx: 0}}
+                        >
+                            <GitHubIcon fontSize="large" />
+                        </Button>
                     </ButtonGroup>
                 </Toolbar>
             ) : (
@@ -144,6 +154,15 @@ export default function Nav() {
                             sx={{display: 'block', mx: 0}}
                         >
                             <LinkedInIcon fontSize="large" />
+                        </Button>
+                        <Button 
+                            component={Link}
+                            href='https://github.com/sause668'
+                            variant='text'
+                            color="secondary" 
+                            sx={{display: 'block', mx: 0}}
+                        >
+                            <GitHubIcon fontSize="large" />
                         </Button>
                     </Box>
                 </Toolbar>

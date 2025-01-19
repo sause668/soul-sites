@@ -80,7 +80,7 @@ export default function Title() {
 
                     }}>
                         <Typography variant="h3" color="white" align="center" py={2}>Kamara Reynolds</Typography>
-                        <Typography variant="h5" color="white" align="center" pb={2}>Frontend Web Developer</Typography>
+                        <Typography variant="h5" color="white" align="center" pb={2}>Full Stack Developer</Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
                             {"After working in the Electronics Industry for 3 years and teaching Middle School Math for 4 years, I've stepped into the realm of Web Development."}
                         </Typography>
@@ -88,7 +88,7 @@ export default function Title() {
                             My areas of expertise are reactive web sites and web applications with backend functionality.
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
-                            My primary tools are React, Next.js, MUI, Node.js, Javascript, CSS, and HTML.
+                            My primary tools are React, Redux, React Router, Flask, Next.js, SQLAchademy, Sequelize and MUI using Python, Node.js, Javascript, CSS, HTML, and SQL.
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
                             <><b>Cell Number: </b>(516)-668-2866</>
@@ -98,7 +98,7 @@ export default function Title() {
                         </Typography>
                         <Button 
                             component={'a'}
-                            href='/Kamara-Reynolds-Resume-2023.pdf'
+                            href='/Kamara_Reynolds_Resume.pdf'
                             download
                             variant='contained'
                             color="secondary" 
