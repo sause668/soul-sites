@@ -81,11 +81,20 @@ export default function Title() {
                     }}>
                         <Typography variant="h3" color="white" align="center" py={2}>Kamara Reynolds</Typography>
                         <Typography variant="h5" color="white" align="center" pb={2}>Full Stack Developer</Typography>
-                        <Typography variant="body1" color="white" align="center" pb={2}>
-                            {"After working in the Electronics Industry for 3 years and teaching Middle School Math for 4 years, I've stepped into the realm of Web Development."}
+                        {/* <Typography variant="body1" color="white" align="center" pb={2}>
+                            Former Electronics Engineer and Middle School Math Teacher. Currently providing website design services. A rare mixture of creative and analytic produces both beautiful and functional finished products.
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
-                            My areas of expertise are reactive web sites and web applications with backend functionality.
+                            My areas of expertise are reactive and responsive web applications with a full backend and database.
+                        </Typography> */}
+                        <Typography variant="body1" color="white" align="center" pb={2}>
+                            After working in the electronics industry for 3 years and teaching for 4 years, I’ve changed my career path to the world of software engineering.
+                        </Typography>
+                        <Typography variant="body1" color="white" align="center" pb={2}>
+                            First, I learned the basics of HTML, CSS, and JavaScript, building my own compilation of resources.  Next, I ran through framework documentation like React, Spring, JavaEE, tkinter, Bootstrap, HTTP protocols.  Finally, I joined a coding bootcamp.
+                        </Typography>
+                        <Typography variant="body1" color="white" align="center" pb={2}>
+                            Focusing on the field of full stack development, I know how to create a responsive frontend with a functional backend and database.  I also know unit testing, code efficiency, and project workflow.
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
                             My primary tools are React, Redux, React Router, Flask, Next.js, SQLAchademy, Sequelize and MUI using Python, Node.js, Javascript, CSS, HTML, and SQL.
