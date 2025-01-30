@@ -88,16 +88,22 @@ export default function Title() {
                             My areas of expertise are reactive and responsive web applications with a full backend and database.
                         </Typography> */}
                         <Typography variant="body1" color="white" align="center" pb={2}>
-                            After working in the electronics industry for 3 years and teaching for 4 years, I have changed my career path to the world of software engineering.
+                            After working in the electronics industry for 3 years and teaching for 4 years, I changed my career path to software engineering.
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
-                            First, I learned the basics of HTML, CSS, and JavaScript, building my own compilation of resources.  Next, I ran through framework documentation like React, Spring, JavaEE, tkinter, Bootstrap, HTTP protocols.  Finally, I joined a coding bootcamp.
+                            First, I learned the basics of HTML, CSS, and JavaScript, building my own compilation of resources. Then, I ran through framework documentation like React.js, Next.js, Node.js, and MUI. 
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
-                            Focusing on the field of full stack development, I know how to create a responsive frontend with a functional backend and database.  I also know unit testing, code efficiency, and project workflow.
+                            Soon, I had enough knowledge and skill to start offering my services to local businesses. My ability to take raw ideas and translate them into a finished product is something I use to this day.  
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
-                            My primary tools are React, Redux, React Router, Flask, Next.js, SQLAchademy, Sequelize and MUI using Python, Node.js, Javascript, CSS, HTML, and SQL.
+                            Recently, I joined App Academy where I learned more about the backend and databases.  This expanded the services I could supply to clients.
+                        </Typography>
+                        <Typography variant="body1" color="white" align="center" pb={2}>
+                            Skills/Technologies: React.js, Redux.js, Next.js, React Router, Node.js, Flask, SQLAchademy, Sequelize, MUI, Bootstrap
+                        </Typography>
+                        <Typography variant="body1" color="white" align="center" pb={2}>
+                            Languages: JavaScript, Python, HTML, CSS, SQL
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
                             <><b>Cell Number: </b>(516)-668-2866</>
