@@ -2,7 +2,7 @@ import Image from "next/image"
 import { Container, Grid, Typography, useMediaQuery, Box, ButtonBase } from "@mui/material";
 import Link from "next/link";
 
-export default function Sites() {
+export default function SitesExp() {
 
     const mobile = useMediaQuery('(min-width:1100px)');
     const xLarge = useMediaQuery('(min-width:1200px)');
@@ -38,41 +38,14 @@ export default function Sites() {
     }
 
     const siteData = [
+        
         {
-            id: 'soulAcademy', 
-            img: '/img/sites/soul-academy.png', 
-            title: 'Soul Academy', 
-            dis: 'Middle School Portal for Grading', 
-            link: 'https://soul-class.onrender.com/'
-        },
-        {
-            id: 'honeyStock', 
-            img: '/img/sites/honey-stock.png', 
-            title: 'Honey Stock', 
-            dis: 'Stock Trading Application', 
-            link: 'https://stock-trading-app-qlg7.onrender.com/'
-        },
-        {
-            id: 'soulmath', 
-            img: '/img/sites/soul-math.png', 
-            title: 'Soul Math', 
-            dis: 'Practice Assessments for Middle School Math', 
-            link: 'https://soul-math.vercel.app'
-        },
-        {
-            id: 'soulcalc', 
-            img: '/img/sites/soul-calc.png', 
-            title: 'Soul Calc', 
-            dis: 'Online Calculator', 
-            link: 'https://soul-math.vercel.app/calc'
-        },
-        {
-            id: 'frontendBasics', 
-            img: '/img/sites/frontend-basics.png', 
-            title: 'Front End Basics', 
-            dis: 'Reference for Beginner Web Developers', 
-            link: 'https://front-end-basics.vercel.app'
-        },
+            id: 'sewposh', 
+            img: '/img/sites/sew-posh.png', 
+            title: 'Sew Posh', 
+            dis: 'Website for Upholstery Company', 
+            link: 'https://sew-posh.vercel.app'
+        }
     ]
 
     return (
@@ -104,7 +77,7 @@ export default function Sites() {
                         py: 2
 
                     }}>
-                        <Typography variant="h2" color="black" align="center" >Recent Projects</Typography>
+                        <Typography variant="h2" color="black" align="center" >Freelance Experience</Typography>
                     </Grid>
                     {siteData.map((site)=>(
                         <Grid item xs={12} sm={12} lg={12} key={`${site.id}pic`}  sx={{

@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Container, Grid, Typography, useMediaQuery, Box } from "@mui/material";
+import { Container, Grid, Typography, useMediaQuery, Box, Tooltip } from "@mui/material";
 
 export default function Title() {
 
@@ -31,11 +31,33 @@ export default function Title() {
         }
         return {height: height, width: width};
     }
+    
+    const skillIcons = [
+        {name: 'JavaScript', link: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png'},
+        {name: 'Python', link: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png'},
+        {name: 'HTML', link: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png'},
+        {name: 'CSS', link: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png'},
+        {name: 'React.js', link: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png'},
+        {name: 'Redux.js', link: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png'},
+        {name: 'Node.js', link: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png'},
+        {name: 'Express.js', link: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png'},
+        {name: 'Flask', link: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flask/flask.png'},
+        {name: 'Next.js', link: 'https://github.com/user-attachments/assets/7016efe1-f0fd-4b78-b0cb-db431926ec0d'},
+        {name: 'Sequelize', link: 'https://avatars.githubusercontent.com/u/3591786?s=200&v=4'},
+        {name: 'PostgreSQL', link: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png'},
+        {name: 'Material UI', link: 'https://github.com/user-attachments/assets/7c0e7758-04f7-4911-9066-6dcac2832fba'},
+        {name: 'Bootstrap', link: '/img/icons/bootstrap.png'},
+        {name: 'GitHub', link: 'https://avatars.githubusercontent.com/u/9919?s=200&v=4'},
+        {name: 'Git', link: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png'},
+        {name: 'Docker', link: 'https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png'},
+        
+    ]
 
     return (
         <Box id='title' sx={{backgroundColor: "primary.main", paddingTop: '60px'}} >
             <Container sx={{
                 display: "flex",
+                flexDirection: 'column',
                 justifyContent: "center",
                 alignItems: 'center',
             }} >
@@ -61,10 +83,6 @@ export default function Title() {
                             height={logoSize().height} 
                             width={logoSize().width} 
                             alt='Nav Logo'
-                            // style={{
-                            //     height: '30%',
-                            //     width: '30%'
-                            // }}
                             priority={true}
                         />
                     </Grid>
@@ -78,6 +96,24 @@ export default function Title() {
                         <Typography variant="h3" color="secondary" align="center" >Soul Never Dies</Typography>
                     </Grid>
                 </Grid>
+                <Box sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: 'center',
+                gap: '.5rem',
+                backgroundColor: "#fdfdfd",
+                borderRadius: '20px',
+                margin: '10px',
+                padding: '10px',
+                flexWrap: 'wrap'
+            }} >
+                {skillIcons.map((icon, index) => (
+                    <Tooltip title={icon.name} key={`skillIcon${index}`}>
+                        <img height='32' width='32' src={icon.link}/> 
+                    </Tooltip>
+                    
+                ))}
+                </Box>
             </Container>
         </Box>
     )

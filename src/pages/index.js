@@ -4,6 +4,8 @@ import Sites from '@/components/Sites'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import About from '@/components/About'
+import Skills from '@/components/Skills'
+import SitesExp from '@/components/SitesExp'
 
 
 export default function Home() {
@@ -24,6 +26,8 @@ export default function Home() {
       </Head>
       <Nav/>
       <Title/>
+      <Skills/>
+      <SitesExp/>
       <Sites/>
       <About/>
       <Footer/>

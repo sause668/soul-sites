@@ -88,7 +88,7 @@ export default function Title() {
                             My areas of expertise are reactive and responsive web applications with a full backend and database.
                         </Typography> */}
                         <Typography variant="body1" color="white" align="center" pb={2}>
-                            After working in the electronics industry for 3 years and teaching for 4 years, I changed my career path to software engineering.
+                            After working in the electronics industry for 3 years and teaching for 4 years, I changed my career path to software engineering.  Coding for me 
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
                             First, I learned the basics of HTML, CSS, and JavaScript, building my own compilation of resources. Then, I ran through framework documentation like React.js, Next.js, Node.js, and MUI. 
