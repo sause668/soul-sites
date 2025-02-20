@@ -45,13 +45,13 @@ export default function Sites() {
             dis: 'Middle School Portal for Grading', 
             link: 'https://soul-class.onrender.com/'
         },
-        {
-            id: 'honeyStock', 
-            img: '/img/sites/honey-stock.png', 
-            title: 'Honey Stock', 
-            dis: 'Stock Trading Application', 
-            link: 'https://stock-trading-app-qlg7.onrender.com/'
-        },
+        // {
+        //     id: 'honeyStock', 
+        //     img: '/img/sites/honey-stock.png', 
+        //     title: 'Honey Stock', 
+        //     dis: 'Stock Trading Application', 
+        //     link: 'https://stock-trading-app-qlg7.onrender.com/'
+        // },
         {
             id: 'soulmath', 
             img: '/img/sites/soul-math.png', 
