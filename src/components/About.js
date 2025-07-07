@@ -88,16 +88,16 @@ export default function Title() {
                             My areas of expertise are reactive and responsive web applications with a full backend and database.
                         </Typography> */}
                         <Typography variant="body1" color="white" align="center" pb={2}>
-                            After working in the electronics industry for 3 years and teaching for 4 years, I changed my career path to software engineering.  Coding for me 
+                            After working in the electronics industry for 3 years and teaching for 4 years, I changed my career path to software engineering.
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
-                            First, I learned the basics of HTML, CSS, and JavaScript, building my own compilation of resources. Then, I ran through framework documentation like React.js, Next.js, Node.js, and MUI. 
+                            First, I learned the basics of HTML, CSS, and JavaScript, building my own compilation of resources. I ran through framework documentation like React.js, Next.js, Node.js, and MUI.
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
-                            Soon, I had enough knowledge and skill to start offering my services to local businesses. My ability to take raw ideas and translate them into a finished product is something I use to this day.  
+                            Then, I joined App Academy where I learned more about the backend and databases. This expanded the services I could supply to clients.
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
-                            Recently, I joined App Academy where I learned more about the backend and databases.  This expanded the services I could supply to clients.
+                            Now, I currently offer my services to local businesses. My ability to take raw ideas and translate them into a finished product is something my clients appreciate.
                         </Typography>
                         <Typography variant="body1" color="white" align="center" pb={2}>
                             Skills/Technologies: React.js, Redux.js, Next.js, React Router, Node.js, Flask, SQLAchademy, Sequelize, MUI, Bootstrap

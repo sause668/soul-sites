@@ -45,7 +45,14 @@ export default function SitesExp() {
             title: 'Sew Posh', 
             dis: 'Website for Upholstery Company', 
             link: 'https://sew-posh.vercel.app'
-        }
+        },
+        {
+            id: 'ballersLab', 
+            img: '/img/sites/ballers-lab-2.png', 
+            title: 'Ballers Lab League', 
+            dis: "Website for Women's Basketball League", 
+            link: 'https://www.ballerslableague.com/'
+        },
     ]
 
     return (

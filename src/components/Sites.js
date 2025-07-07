@@ -40,7 +40,7 @@ export default function Sites() {
     const siteData = [
         {
             id: 'soulAcademy', 
-            img: '/img/sites/soul-academy.png', 
+            img: '/img/sites/soul-academy-2.png', 
             title: 'Soul Academy', 
             dis: 'Middle School Portal for Grading', 
             link: 'https://soul-class.onrender.com/'
@@ -54,21 +54,21 @@ export default function Sites() {
         // },
         {
             id: 'soulmath', 
-            img: '/img/sites/soul-math.png', 
+            img: '/img/sites/soul-math-2.png', 
             title: 'Soul Math', 
             dis: 'Practice Assessments for Middle School Math', 
             link: 'https://soul-math.vercel.app'
         },
-        {
-            id: 'soulcalc', 
-            img: '/img/sites/soul-calc.png', 
-            title: 'Soul Calc', 
-            dis: 'Online Calculator', 
-            link: 'https://soul-math.vercel.app/calc'
-        },
+        // {
+        //     id: 'soulcalc', 
+        //     img: '/img/sites/soul-calc.png', 
+        //     title: 'Soul Calc', 
+        //     dis: 'Online Calculator', 
+        //     link: 'https://soul-math.vercel.app/calc'
+        // },
         {
             id: 'frontendBasics', 
-            img: '/img/sites/frontend-basics.png', 
+            img: '/img/sites/frontend-basics-2.png', 
             title: 'Front End Basics', 
             dis: 'Reference for Beginner Web Developers', 
             link: 'https://front-end-basics.vercel.app'
